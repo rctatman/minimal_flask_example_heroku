@@ -26,7 +26,7 @@ pickle.load(open("models/my_model.pkl", "rb")
 ## Files you'll need to edit
 
 * **README**: This is the file you're currently reading. You'll probably want to update this to have information about your specific API and how to use it.
-* **openapi.yaml**: This is the specification file that we wrote on day 1. ([The notebook's here if you need a refresher](https://www.kaggle.com/rtatman/careercon-intro-to-apis)). You'll want to replace this file with the OpenAPI specification file you wrote on day 1.
+* **openapi.yaml**: You can relace this file with the specification file that we wrote on day one. ([The notebook's here if you need a refresher](https://www.kaggle.com/rtatman/careercon-intro-to-apis)).
 * **requirements.txt**: This file has information on what packages you use in your app. *You need to make sure that you list every package you import and also gunicorn*. If you remove the line with gunicorn or forget to include a package you import somewhere else, you'll get an error when you try to run your app. 
 * **runtime.txt**: This file tells Heroku which version of Python to use to run your app. You'll only need to update this file if you pickled your model file using a different version of Python & that's causing your code to break. 
 
