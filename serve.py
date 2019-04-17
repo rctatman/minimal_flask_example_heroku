@@ -1,5 +1,5 @@
 def useless_function():
     """ 
-    A function that prints some text
+    A function that returns some text
     """
-    print("some text")
+    return("some text")
