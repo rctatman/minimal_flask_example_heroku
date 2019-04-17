@@ -1,0 +1,27 @@
+openapi: "3.0.0"
+
+info:
+  title: "Python package name extractor"
+  description: "A simple api that accepts a text string and returns Python packages mentioned in it."
+  version: "1.0"
+
+servers:
+  - url: https://kaggle-test.herokuapp.com/
+
+
+paths:
+  /extractpackages:
+    post:
+      description: ""
+      
+      requestBody:
+        description: "Json file with single field continaining text to extract entities from"
+        required: true
+        content:
+          application/json: {}
+      
+      responses:
+        '200':
+          description: "Returns the identity & index of Python packages in the provided text"
+          content: 
+           application/json: {}
